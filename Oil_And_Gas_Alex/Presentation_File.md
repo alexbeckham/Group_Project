@@ -1,20 +1,21 @@
  # Title Slide 
 
-<img src="oil-and-gas-turbines-renewable.jpg" alt="drawing" width="1500" height="857">
+
+<img src="Presentation_Images/oil-and-gas-turbines-renewable.jpg" alt="drawing" width="1500" height="857">       
 ---
 
 # Motivation & Summary Slide
 
-## The Oil & Gas industry can ve very complex and confusing to understand. We wanted to explore how to best measure the health of this industry in today's world. 
+## The Oil & Gas industry can be very complex and confusing to understand. We wanted to explore how to best measure the health of this industry in today's world. 
 
 <img src="https://s.hdnux.com/photos/20/04/75/4214654/9/rawImage.jpg" alt="drawing" width="1000" height="750"> 
 
 
 ## Our Questions
 
-* What is the current state of Oil & Gas?
-* To what extent is Alternative Energy taking over Oil & Gas?
+* How much energy is supplied by Oil & Gas vs Alternative energy sources? 
 * What can the stock market tell us about the health of Oil & Gas?
+* Does higher production mean higher stock returns? 
 
 
 ---
@@ -30,58 +31,36 @@
 ---
 # Data Cleanup & Exploration
 
-![](Production.png)
-![](Stocks.png) 
+![](Presentation_Images/Production.png)
+![](Presentation_Images/Stocks.png)
 
 ## Production
-* Read in csv from EIA with total production for petroleum and total production for nuclear and renewables. 
+* Read in csvs from EIA with total production for petroleum and total production for nuclear and renewables. 
 * Dropped columns with excess information.
+* Combined into one data frame
+
 
 ## Stocks
 * Pulled stock price data from Yahoo Finance API:
   * Oil and Gas = BP, XOM, CVX, RDS-B
-  * Alternative =  BLX, CIG, ELP, PLUG
+  * Alternative =  BLX, CIG, ELP, PLUG- These frequently show up in ETFs
 * Created data frame with all tickers 
 
 ## Issues
 
-* What data to use? What is alternative/renewable energy? 
-  * Renewable energy is useful energy that is collected from renewable resources, which are naturally replenished on a human timescale, including carbon neutral sources like sunlight, wind, rain, tides, waves, and geothermal heat.
-* Date matching- alternative stock data only went back  went back to 2000 
-* Production- finding comparable units of measure
-* Stocks- finding enough data. Funds did not go back far enough, so we used individual stocks. 
+* What data to use? What is alternative energy? 
+  * Alternative energy consists of nuclear and carbon neutral sources like sunlight, wind, rain, tides, waves, and geothermal heat.
+* Stocks- finding enough data. Funds did not go back far enough, so we used individual stocks.
+* Date matching- alternative stock data only went back  went back to 2000
 * Data had to be formatted by years because it came daily
-
 
 ---
 # Data Analysis
 ## Questions Revisited
 
-* What is the current state of Oil & Gas? 
-* To what extent is Alternative Energy taking over Oil & Gas?
-* What can the stock market tell us about the health of Oil & Gas?
-
-## Energy Production Analysis 
-![](Oil_And_Gas/Images/combined_production.png)
-* Oil & Gas Production is higher today than it's ever been in history. 
-* Alternative Energy production jumped ahead from 2003-2011 and has steadily increased production since 1980.
-
-## Stock Analysis
-![](Oil_And_Gas/Images/stock_prices.png)
-
-*NOTE- can we combine into portfolios?
-
-![](Oil_And_Gas/Images/5_year_stdev.png) ![](Oil_And_Gas/Images/stdev_by_industry.png) 
-
-* Alternative Energy is riskier than Oil & Gas
-
-![](Oil_And_Gas/Images/cumulative_returns.png) 
-
-* Alternative Energy returns have been higher than Oil & Gas in the last few years
-
-![](Oil_And_Gas/Images/portfolio_correlation.png) 
-
-![](Oil_And_Gas/Images/production_vs_returns_all.png) 
+* How much energy is supplied by Oil & Gas vs Alternative energy sources? (Annual Production)
+* What can the stock market tell us about the health of Oil & Gas? (Stock Returns & Stock Risks)
+* Does higher production mean higher stock returns? (Correlations)
 
 
 ---
@@ -114,6 +93,8 @@ We know that there are many more factors for measuring the health of the Oil & G
   * Feedstocks for chemicals, plastics, and synthetic materials 
 
   This would help us understand more of the reasons for why the numbers move in the way that they do. 
+
+  We'd have to look at geopolitical events, natural disasters, price wars, 
 
 ---
 # Questions
