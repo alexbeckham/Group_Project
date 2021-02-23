@@ -1,7 +1,7 @@
  # Title Slide 
 
 
-<img src="Presentation_Images/oil-and-gas-turbines-renewable.jpg" alt="drawing" width="1500" height="857">       
+<img src="Presentation_Images/oil-and-gas-turbines-alternative.jpg" alt="drawing" width="1500" height="857">       
 ---
 
 # Motivation & Summary Slide
