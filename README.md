@@ -1,7 +1,11 @@
 # Project 1
 
+![Alternative](Oil_And_Gas_Alex/Presentation_Images/oil-and-gas-turbines-alternative.jpg)
+![]
+
 ## Goal
 In this project we compare the oil and gas industry with the Alternative Energy industry in terms of production and stock prices in order to evaluate which industry is the best performer.
+
 
 ## Measuring Sticks
 ### Assumptions:
