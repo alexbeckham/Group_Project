@@ -82,11 +82,10 @@ Discuss your findings. Did you find what you expected to find? If not, why not? 
 ![](Headlines.png)
 
 Our original question was: Is the oil and gas industry a viable career path for a college graduate? Should young people who are involved in oil & gas course correct and find a new job? 
-
 The problem with answering this specific question was that the project is based on historical data, and not future projections. (monte carlo simulation??)
 
 
-We know that there are many more factors for measuring the health of the Oil & Gas Industry. In the future, we would take more factors into account, such as breaking down the uses for Petroleum products into more granular detail: 
+We know that there are many more factors for measuring the health of the Oil & Gas Industry. In the future, we would take more factors into account, such as breaking down the uses for Petroleum products into more granular detail:
   * Transportation fuels
   * Fuel oils for heating and electricity generation
   * Asphalt and road oil
@@ -94,7 +93,8 @@ We know that there are many more factors for measuring the health of the Oil & G
 
   This would help us understand more of the reasons for why the numbers move in the way that they do. 
 
-  We'd have to look at geopolitical events, natural disasters, price wars, 
+
+  We'd have to look at geopolitical events, natural disasters, price wars,
 
 ---
 # Questions
