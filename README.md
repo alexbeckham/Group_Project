@@ -42,16 +42,21 @@ The ideal winner would be the industry that is growing the fastest, has the best
 
 ## Postmortem - A Deeper Dive
 
-It's imporant to note that to truely capture the viability of the Oil & Gas industry, we have to consider these other uses of oil: 
+It’s important to note that stock prices are based on many factors, including: corporate earnings reports, cash flow, and risk tolerance. We also have to take geopolitical events, natural disasters, and price wars into account when looking at the stocks of these companies. 
+
+
+If we had 2 more weeks to investigate…
+
+To truly capture the viability of Oil & Gas industry, we need to dive deeper into the uses of petroleum products, including:
+
   * Transportation fuels
   * Fuel oils for heating and electricity generation
   * Asphalt and road oil
-  * Feedstocks for chemicals, plastics, and synthetic materials.
+  * Feedstocks for chemicals, plastics, and synthetic materials 
+  * Lubricants
+  * Pharmaceuticals
 
-We would also consider the cost of producing Oil & Gas vs. Renewables.
+We would also look at the costs of gas fired power vs alternatives as well as consumption in addition to production. 
 
-We would also need to look at stock price fluctuation contributors such as geopolitical events, natural disasters, and price wars.
+Ultimately, this analysis is static. We are only looking at snapshot of the bigger picture.
 
-Total energy usage goes up naturally. We would take this into account, measuring how each type of energy moves with the total increase. 
-
-Ultimately, this analysis is static. We are only looking at snapshot of the question. 
